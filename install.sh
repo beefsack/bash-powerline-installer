@@ -58,3 +58,4 @@ POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 . \"$PACKAGE_LOCATION/powerline/bindings/bash/powerline.sh\"" > $HOME/.bashrc
 source "$HOME/.bashrc"
+echo "${BOLD}Installation complete, you may want to install a powerline compatible font for your terminal emulator from https://github.com/powerline/fonts$PLAIN"
