@@ -52,7 +52,8 @@ echo "{
 }" > "$POWERLINE_CONFIG_DIR/themes/shell/default_leftonly.json"
 
 echo "${BOLD}Installing new bashrc$PLAIN"
-echo "powerline-daemon -q
+echo "alias ls='ls --color=auto'
+powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 . \"$PACKAGE_LOCATION/powerline/bindings/bash/powerline.sh\"" > $HOME/.bashrc
